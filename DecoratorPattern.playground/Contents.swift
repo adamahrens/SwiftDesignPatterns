@@ -152,3 +152,10 @@ var tea: Beverage = Tea()
 tea = Sugar(beverage: tea)
 print(tea.cost())
 print(tea.description)
+
+// DarkRoast with double Milk
+var darkRoast: Beverage = DarkRoast()
+darkRoast = Milk(beverage: darkRoast)
+darkRoast = Milk(beverage: darkRoast)
+print(darkRoast.cost())
+print(darkRoast.description)
